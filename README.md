@@ -6,7 +6,8 @@ Support for remote kernels built programmatically over SSH and dynamic remote po
 ```mathematica
 In[1]:= Needs["SSHKernel`"]
 
-In[2]:= rk = SSHKernel["raspberrypi"]; // AbsoluteTiming
+In[2]:= (* "raspberrypi" is the hostname configured in my ~/.ssh/config *)
+        rk = SSHKernel["raspberrypi"]; // AbsoluteTiming
 
 Out[2]= {11.535, Null}
 
