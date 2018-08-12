@@ -1,6 +1,10 @@
 # MathematicaSSHKernels
 Support for remote kernels built programmatically over SSH and dynamic remote port forwarding.
 
+## Installation
+
+Stick the `SSHKernel.m` file into ```$UserBaseDirectory<>"\\Applications"```.
+
 ## Example Usage
 
 ```mathematica
